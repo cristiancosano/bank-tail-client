@@ -24,7 +24,7 @@
                 ?> 
                 <img src="data:image/jpg;base64,<?php echo $imageData ?>" alt="" srcset="">
                 <br>
-                Welcome at <?php echo (new DateTime('NOW'))->format('d/m/yy H:i').'h'; ?>
+                Welcome at <?php echo (new DateTime('NOW'))->format('d/m/yy H:i:s').'h'; ?>
             </td>
         </tr>
         <tr>
